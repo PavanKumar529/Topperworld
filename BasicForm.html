@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Form</title>
+    <style>
+      body {
+        margin: 100px;
+      }
+      .custom-info {
+        /* display: flex; */
+        /* justify-content:flex; */
+        /* justify-content: space-between; */
+      }
+      .custom-info .input-box label {
+        min-width: 120px;
+      }
+      .custom-info .input-box input {
+        padding: 5px;
+        margin-bottom: 15px;
+        width: 300px;
+      }
+      .custom-info .input-box textarea {
+        width: 300px;
+        padding: 5px;
+      }
+      legend{
+        font-size: 25px;
+        font-weight: 600;
+      }
+      fieldset {
+        padding: 20px 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pavan Enterprises</h1>
+    <h3>Basic form design using HTML</h3>
+    <div class="custom-info">
+      <fieldset>
+        <legend>Personal Details</legend>         
+        <form>                  
+          <div class="input-box">
+            <label>First Name : </label>
+            <input type="text" name="FirstName" required=""/>
+          </div>
+          <div class="input-box">
+            <label>Last Name :</label>
+            <input type="text" name="LastName" required=""/>        
+          </div>
+          <!-- <div class="input-box">
+            <label>Email :</label>
+            <input type="email" name="email" required="">
+          </div>
+          <div class="input-box">
+            <label>Password : </label>
+            <input type="password" name="password" required="">
+          </div> -->
+  
+          <!-- <div>
+            <label for="">Gender : </label>
+            <input type="radio">Male
+            <input type="radio">Female
+          </div> -->
+
+          <div class="input-box">
+            <label>Address : </label>
+            <textarea name="Address"></textarea>
+          </div>
+          <div>
+            <button type="submit" value="Submit">submit</button>
+          </div>            
+        </form>        
+      </fieldset>
+
+      <fieldset>             
+        <legend>Contact Info</legend>
+        <form>         
+          <div class="input-box">
+            <label>Email :</label>
+            <input type="email" name="email" required=""/>
+          </div>
+          <div class="input-box">
+            <label>Contact : </label>
+            <input type="number" name="Contact" required=""/>
+          </div>
+          <p></p>
+          <div>
+            <label for="">Gender : </label>
+            <input type="radio">Male
+            <input type="radio">Female
+          </div>
+          <p></p>
+          <div class="input-box">
+            <label>Country : </label>
+            <input type="text" name="Coumtry" required=""/>
+          </div>
+          <div class="input-box">
+            <label>State : </label>
+            <input type="Text" name="State" required=""/>
+          </div>
+          <div class="input-box">
+            <label>City : </label>
+            <input type="text" name="City" required=""/>
+          </div>
+          <div>
+            <button type="submit" value="Submit">submit</button>
+          </div>             
+        </form>                 
+      </fieldset>
+    </div>
+    <p></p>  
+    <!-- <div>
+      <button type="submit" value="Submit">submit</button>
+    </div>   -->
+  </body>
+</html>

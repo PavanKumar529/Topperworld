@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ApplicationForm1</title>
+    <style>
+      body {
+        /* background: url("sea.png") center/cover no-repeat;         */
+        background-color: rgb(199, 221, 205);
+        margin: 20px;
+        padding: 0px;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        /* display: flex; */
+      }
+      h1 {
+        color: rgb(255, 0, 162);   
+      }
+      /* .btn {
+        background: blue;
+        font-size: 20px;
+      } */
+    </style>
+  </head>
+  <body>
+      <h1>Pavan Consultancy Service</h1>
+      <marquee scrollamount="10" bgcolor="yellow" direction="right">Today is the last date for applying Intenship</marquee>
+      <h2>Application form for Intenship</h2>
+      <form>
+        <div class="form"></div>
+        <p>Name: </p>
+        <input type="text" name="Name"/> <br>
+        <p>Email: </p>
+        <input type="email" placeholder="Email" name="Email"> <br>
+        <p>Password</p>
+        <input type="password" placeholder="Password" name="Password">
+        <p>Age: </p>
+        <input type="number" name="Age"/>
+        <p>Highest Educational Qualifications</p>
+        <input type="radio" id="M.Tech" name="M.Tech" Value="M.Tech"/>M.Tech<br>
+        <input type="radio" id="B.Tech" name="B.Tech" Value="B.Tech"/>B.Tech<br>
+        <input type="radio" name="M.sc" Value="M.sc"/>M.sc<br>
+        <input type="radio" name="B.sc" Value="B.sc"/>B.sc<br>
+        <input type="radio" name="MCA" Value="MCA"/>MCA<br>
+        <input type="radio" name="BCA" Value="BCA"/>BCA<br>
+        <p>Which Programming Languages Should You Know</p>
+        <input type="checkbox" name="C" value="on"/>C<br>
+        <input type="checkbox" name="C++" value="on"/>C++<br>      
+        <input type="checkbox" name="Java" value="on"/>Java<br>
+        <input type="checkbox" name="Python" value="on"/>Python<br>
+        <input type="checkbox" name="JavaScript" value="on"/>JavaScript<br>
+        <p>How many months you want to participate in our Intenship program?</p>
+        <select name="dropdown">
+          <option value="3 months">3 months</option>
+          <option value="6 months" selected>6 months</option>
+          <option value="9 months">9 months</option>
+          <option value="12 months">12 months</option>
+        </select>
+        <p>Upload Your Resume</p>
+        <input type="file" name="Fileupload" accept=""/>
+        <p>About Yourself</p>
+        <textarea rows="2" cols="20" name="Description"></textarea>
+        <p></p>
+        <a href="ApplicationForm1-_Second WebPage.html">
+          <!-- <a href="ApplicationForm1-_Second WebPage.html"> -->
+         <input type="button" name="Submit" value="Submit"></a>
+      </form>
+  </body>
+</html>
